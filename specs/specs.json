@@ -2,14 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "meta": {
     "name": "passport-photo-specs",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Canonical passport, visa, and ID document photo specifications validated against official government sources",
-    "countries": 89,
-    "documents": 226,
+    "countries": 100,
+    "documents": 248,
     "license": "MIT",
     "repository": "https://github.com/whitetirocket/passport-photo-specs",
     "upstream": "https://idphotosnap.com",
-    "lastUpdated": "2026-05-11",
+    "lastUpdated": "2026-05-12",
     "governmentSources": [
       "US Department of State (travel.state.gov)",
       "UK HM Passport Office (gov.uk/photos-for-passports)",
@@ -5434,6 +5434,545 @@
           "bgColorLabel": "White",
           "requirements": [
             "Size: 45×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "flag": "🇪🇹",
+      "documents": [
+        {
+          "id": "ethiopia-passport",
+          "name": "Passport",
+          "slug": "ethiopia-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "ethiopia-visa",
+          "name": "eVisa",
+          "slug": "ethiopia-evisa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "documents": [
+        {
+          "id": "ghana-passport",
+          "name": "Passport",
+          "slug": "ghana-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "ghana-visa",
+          "name": "eVisa",
+          "slug": "ghana-evisa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "documents": [
+        {
+          "id": "iran-passport",
+          "name": "Passport",
+          "slug": "iran-passport-photo",
+          "widthMm": 40,
+          "heightMm": 60,
+          "widthPx": 472,
+          "heightPx": 709,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 40×60 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "iran-visa",
+          "name": "Visa",
+          "slug": "iran-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "documents": [
+        {
+          "id": "tanzania-passport",
+          "name": "Passport",
+          "slug": "tanzania-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "tanzania-visa",
+          "name": "eVisa",
+          "slug": "tanzania-evisa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yemen",
+      "name": "Yemen",
+      "flag": "🇾🇪",
+      "documents": [
+        {
+          "id": "yemen-passport",
+          "name": "Passport",
+          "slug": "yemen-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "yemen-visa",
+          "name": "Visa",
+          "slug": "yemen-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iraq",
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "documents": [
+        {
+          "id": "iraq-passport",
+          "name": "Passport",
+          "slug": "iraq-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "iraq-visa",
+          "name": "Visa",
+          "slug": "iraq-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "documents": [
+        {
+          "id": "senegal-passport",
+          "name": "Passport",
+          "slug": "senegal-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "senegal-visa",
+          "name": "Visa",
+          "slug": "senegal-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "flag": "🇨🇲",
+      "documents": [
+        {
+          "id": "cameroon-passport",
+          "name": "Passport",
+          "slug": "cameroon-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "cameroon-visa",
+          "name": "Visa",
+          "slug": "cameroon-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sudan",
+      "name": "Sudan",
+      "flag": "🇸🇩",
+      "documents": [
+        {
+          "id": "sudan-passport",
+          "name": "Passport",
+          "slug": "sudan-passport-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "sudan-visa",
+          "name": "Visa",
+          "slug": "sudan-visa-photo",
+          "widthMm": 35,
+          "heightMm": 45,
+          "widthPx": 413,
+          "heightPx": 531,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 35×45 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "documents": [
+        {
+          "id": "bahrain-passport",
+          "name": "Passport",
+          "slug": "bahrain-passport-photo",
+          "widthMm": 40,
+          "heightMm": 60,
+          "widthPx": 472,
+          "heightPx": 709,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 40×60 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "bahrain-visa",
+          "name": "eVisa",
+          "slug": "bahrain-evisa-photo",
+          "widthMm": 40,
+          "heightMm": 60,
+          "widthPx": 472,
+          "heightPx": 709,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 40×60 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oman",
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "documents": [
+        {
+          "id": "oman-passport",
+          "name": "Passport",
+          "slug": "oman-passport-photo",
+          "widthMm": 43,
+          "heightMm": 55,
+          "widthPx": 508,
+          "heightPx": 650,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 43×55 mm",
+            "Plain white background",
+            "Neutral expression, mouth closed",
+            "Both eyes open and clearly visible",
+            "No glasses",
+            "Taken within the last 6 months"
+          ]
+        },
+        {
+          "id": "oman-visa",
+          "name": "eVisa",
+          "slug": "oman-evisa-photo",
+          "widthMm": 43,
+          "heightMm": 55,
+          "widthPx": 508,
+          "heightPx": 650,
+          "dpi": 300,
+          "background": "Plain white",
+          "bgColor": "#ffffff",
+          "bgColorLabel": "White",
+          "requirements": [
+            "Size: 43×55 mm",
             "Plain white background",
             "Neutral expression, mouth closed",
             "Both eyes open and clearly visible",

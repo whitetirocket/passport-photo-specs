@@ -1,6 +1,6 @@
 {
   "name": "passport-photo-specs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Canonical passport, visa, and ID document photo specifications validated against 15+ official government sources. 89 countries, 226 document formats.",
   "main": "specs/specs.json",
   "types": "specs/index.ts",
