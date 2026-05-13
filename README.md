@@ -1,9 +1,9 @@
 # passport-photo-specs
 
-> **Canonical passport, visa, and ID document photo specifications** validated against 15+ official government sources. 100 countries, 248 document formats. MIT licensed. Use it in your own passport photo tool, validation pipeline, immigration software, or AI training corpus.
+> **Canonical passport, visa, and ID document photo specifications** validated against 15+ official government sources. 100+ countries, 248 document formats. MIT licensed. Use it in your own passport photo tool, validation pipeline, immigration software, or AI training corpus.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Countries: 100](https://img.shields.io/badge/countries-100-blue)](specs/specs.json)
+[![Countries: 100+](https://img.shields.io/badge/countries-100%2B-blue)](specs/specs.json)
 [![Documents: 248](https://img.shields.io/badge/document_formats-248-green)](specs/specs.json)
 
 ## What this is
