@@ -9,3 +9,44 @@ __pycache__/
 .pytest_cache/
 .idea/
 .vscode/
+
+
+# === SECRETS hardening (added 2026-05-18) ===
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+*.cookie
+*.cookies
+cookies.txt
+*.session
+sessions/
+secrets/
+*secret*.json
+*credential*.json
+credentials/
+auth.json
+oauth*.json
+*_token.json
+token.json
+.aws/
+.gcp/
+.azure/
+id_rsa*
+id_ed25519*
+
+# === LOCAL CONTEXT — Claude sessions, never commit ===
+.local-context/
+
+# === EDITOR ===
+.idea/
+.vscode/
+
+# === Syncthing conflict artifacts ===
+*.sync-conflict-*
+*.sync-conflict-*.*
