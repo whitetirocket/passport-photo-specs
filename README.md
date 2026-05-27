@@ -56,9 +56,24 @@ const india = findCountry('india')
 console.log(`${countries.length} countries available`)
 ```
 
+### Python
+
+```bash
+pip install passport-photo-specs
+```
+
+```python
+from passport_photo_specs import find_document, find_country, countries, documents
+
+italy_visa = find_document("italy-visa-photo")
+# {'widthMm': 35, 'heightMm': 45, 'widthPx': 413, 'heightPx': 531, ...}
+
+print(f"{len(countries())} countries, {len(documents())} document formats")
+```
+
 ### Plain JSON (any language)
 
-The complete dataset is at [`specs/specs.json`](specs/specs.json). Load it in Python, Go, Rust, Ruby, anything. Working examples in [`examples/`](examples/) for Python, Go, and Rust.
+The complete dataset is at [`specs/specs.json`](specs/specs.json). Load it in Go, Rust, Ruby, anything. Working examples in [`examples/`](examples/) for Python, Go, and Rust.
 
 ### Live HTTP API (no clone needed)
 
